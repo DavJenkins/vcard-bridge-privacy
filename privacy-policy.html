@@ -146,17 +146,18 @@
                 <p class="subtitle">Simple. Private. On-device.</p>
 
                 <p class="effective-date">
-                    <strong>Effective date:</strong> September 22, 2026
+                    <strong>Effective date:</strong> October 21, 2026
                 </p>
             </div>
         </header>
 
         <p>
-            vCard Bridge is provided by DEJ Software. This privacy policy
+            vCard Bridge is provided by DEJ Software™. This privacy policy
             explains how the app handles information.
         </p>
 
-        <h2>Information handled by the app</h2>
+        <nav class="policy-contents" aria-label="Policy contents"><strong>On this page</strong><ul><li><a href="#information-handled-by-the-app">Information handled by the app</a></li><li><a href="#on-device-processing">On-device processing</a></li><li><a href="#advertising-and-analytics">Advertising and analytics</a></li><li><a href="#purchases-and-trial-status">Purchases and trial status</a></li><li><a href="#data-sharing">Data sharing</a></li><li><a href="#optional-diagnostic-reports">Optional diagnostic reports</a></li><li><a href="#information-collected-by-dej-software">Information collected by DEJ Software™</a></li><li><a href="#data-retention-and-deletion">Data retention and deletion</a></li><li><a href="#security">Security</a></li><li><a href="#changes-to-this-policy">Changes to this policy</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+<h2 id="information-handled-by-the-app">Information handled by the app</h2>
 
         <p>
             vCard Bridge processes vCard text supplied by the user in either
@@ -180,12 +181,12 @@
             determine how many vCards it contains.
         </p>
 
-        <h2>On-device processing</h2>
+        <h2 id="on-device-processing">On-device processing</h2>
 
         <p>
-            vCard and contact text is processed locally on the user's device.
-            DEJ Software does not transmit this information to its own servers
-            and does not collect or store copies of it remotely.
+            Normal vCard and contact processing occurs locally on the user's
+            device. vCard Bridge does not automatically transmit this data to
+            DEJ Software™. Optional diagnostic sharing is described below.
         </p>
 
         <p>
@@ -199,7 +200,14 @@
             vCard Bridge does not read the user's existing contacts.
         </p>
 
-        <h2>Purchases and trial status</h2>
+        <h2 id="advertising-and-analytics">Advertising and analytics</h2>
+
+        <p>
+            vCard Bridge does not contain advertising and does not use
+            third-party advertising or analytics services.
+        </p>
+
+        <h2 id="purchases-and-trial-status">Purchases and trial status</h2>
 
         <p>
             Direct Share is available through a free trial and may require an
@@ -207,7 +215,7 @@
         </p>
 
         <p>
-            Purchases are processed through Google Play. DEJ Software does not
+            Purchases are processed through Google Play. DEJ Software™ does not
             receive or store the user's payment-card information. Google Play
             may provide the app with purchase-status information needed to
             determine whether a feature has been unlocked.
@@ -218,45 +226,63 @@
             device.
         </p>
 
-        <h2>Advertising and analytics</h2>
+        <h2 id="data-sharing">Data sharing</h2>
 
         <p>
-            vCard Bridge does not contain advertising and does not use
-            third-party advertising or analytics services.
-        </p>
-
-        <h2>Information collected by DEJ Software</h2>
-
-        <p>
-            DEJ Software does not require users to create an account and does
-            not collect names, email addresses, contact lists, vCard contents,
-            clipboard contents, or imported contact information through the
-            app.
+            DEJ Software™ does not sell user information.
         </p>
 
         <p>
-            If a user voluntarily contacts DEJ Software by email, the
+            When the user initiates an import, vCard data is passed to the
+            selected contacts application. This workflow remains local; any
+            further handling depends on that application's behavior and privacy
+            practices. Purchase processing and purchase-status verification are
+            handled through Google Play.
+        </p>
+
+        <h2 id="optional-diagnostic-reports">Optional diagnostic reports</h2>
+
+        <p>
+            Diagnostic reporting is optional and initiated by the user. Before
+            sharing, the user controls the diagnostic and privacy selections.
+            Depending on those selections, a report may contain vCard or
+            contact-related data, including raw data. Reports are not sent
+            automatically: the user explicitly starts the email or share
+            handoff and completes sending in the chosen application.
+        </p>
+
+        <p>
+            Diagnostic encryption is enabled by default. When enabled, the
+            report is OpenPGP encrypted for DEJ Software™ before the email
+            handoff. If encryption fails, that handoff is blocked; the app does
+            not silently substitute plaintext. The user can explicitly disable
+            encryption or choose Share another way to share the report as
+            plaintext.
+        </p>
+
+        <h2 id="information-collected-by-dej-software">Information collected by DEJ Software™</h2>
+
+        <p>
+            DEJ Software™ does not require users to create an account. The app
+            does not automatically send names, email addresses, contact lists,
+            vCard contents, clipboard contents, or imported contact information
+            to DEJ Software™. Users may choose to include information in a
+            diagnostic report.
+        </p>
+
+        <p>
+            If a user voluntarily contacts DEJ Software™ by email, the
             information included in that correspondence will be used only to
             respond to the inquiry and provide support.
         </p>
 
-        <h2>Data sharing</h2>
+        <h2 id="data-retention-and-deletion">Data retention and deletion</h2>
 
         <p>
-            DEJ Software does not sell user information.
-        </p>
-
-        <p>
-            vCard data is shared only with the contacts application selected
-            by the user when the user initiates an import. Purchase processing
-            and purchase-status verification are handled through Google Play.
-        </p>
-
-        <h2>Data retention and deletion</h2>
-
-        <p>
-            Because DEJ Software does not receive vCard or contact data, it
-            does not retain that data on its servers.
+            Normal on-device processing does not send vCard or contact data
+            to DEJ Software™ for retention. Information voluntarily sent by
+            email, including diagnostic reports, is handled as support
+            correspondence as described above.
         </p>
 
         <p>
@@ -271,17 +297,17 @@
             policies.
         </p>
 
-        <h2>Security</h2>
+        <h2 id="security">Security</h2>
 
         <p>
-            vCard Bridge is designed to keep vCard processing on the device
-            and to transfer vCard data only when the user requests an import.
-            No method of software operation can guarantee absolute security,
-            but the app minimizes exposure by not sending vCard or contact
-            text to a DEJ Software server.
+            vCard Bridge keeps normal vCard processing on the device. Data is
+            handed to another application only when the user initiates an import
+            or diagnostic sharing. Diagnostic encryption and its explicit
+            plaintext options are described above. No method of software
+            operation can guarantee absolute security.
         </p>
 
-        <h2>Changes to this policy</h2>
+        <h2 id="changes-to-this-policy">Changes to this policy</h2>
 
         <p>
             This policy may be updated if the app's features or
@@ -289,7 +315,7 @@
             top of this page will be revised when changes are published.
         </p>
 
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
 
         <p>
             Questions about this privacy policy or vCard Bridge may be sent
@@ -297,9 +323,9 @@
         </p>
 
         <p>
-            <strong>DEJ Software</strong><br>
+            <strong>DEJ Software™</strong><br>
             Email:
-            <a href="mailto:DEJSoftware@pm.me">DEJSoftware@pm.me</a>
+            <a href="mailto:support@DEJSoftware.com">support@DEJSoftware.com</a>
         </p>
 
         <footer class="brand-footer">
